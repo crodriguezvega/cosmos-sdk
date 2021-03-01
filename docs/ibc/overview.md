@@ -40,7 +40,7 @@ testing, simulation and relaying packets to modules on the same application.
 
 ### [Connections](https://github.com/cosmos/cosmos-sdk/tree/master/x/ibc/core/03-connection)
 
-Connections encapsulate two `ConnectionEnd` objects on two seperate blockchains. Each
+Connections encapsulate two `ConnectionEnd` objects on two separate blockchains. Each
 `ConnectionEnd` is associated with a client of the other blockchain (ie counterparty blockchain).
 The connection handshake is responsible for verifying that the light clients on each chain are
 correct for their respective counterparties. Connections, once established, are responsible for
