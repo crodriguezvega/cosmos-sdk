@@ -61,7 +61,7 @@ format that all implementations must be able to produce and verify is defined in
 
 ### [Capabilities](./ocap.md)
 
-IBC is intended to work in execution environements where modules do not necessarily trust each
+IBC is intended to work in execution environments where modules do not necessarily trust each
 other. Thus IBC must authenticate module actions on ports and channels so that only modules with the
 appropriate permissions can use them. This is accomplished using [dynamic
 capabilities](../architecture/adr-003-dynamic-capability-store.md). Upon binding to a port or
