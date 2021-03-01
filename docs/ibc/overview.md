@@ -77,7 +77,7 @@ receiving and acknowledging packets through channels, which are uniquely identif
 `(channelID, portID)` tuple. A useful analogy is to consider IBC modules as internet applications on
 a computer. A channel can then be conceptualized as an IP connection, with the IBC portID being
 analogous to a IP port and the IBC channelID being analogous to an IP address. Thus, a single
-instance of an IBC module may communicate on the same port with any number of other modules and and
+instance of an IBC module may communicate on the same port with any number of other modules and 
 IBC will correctly route all packets to the relevant module using the (channelID, portID tuple). An
 IBC module may also communicate with another IBC module over multiple ports, with each
 `(portID<->portID)` packet stream being sent on a different unique channel.
